@@ -1,0 +1,21 @@
+status of checking acc
+duration in month
+credit history
+purpose
+credit amount
+savings account/bonds
+employement since
+installment rate in percentage of disp. income
+personal status and sex
+other debtors / guarantors
+present residence since
+property
+age in years
+other installment plans
+housing
+number of existing credits at this bank
+job
+people liable to provide maintenance for
+telephone
+foreign worker
+good or bad customer

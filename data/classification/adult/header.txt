@@ -1,0 +1,15 @@
+age
+workclass
+final weight
+education
+education-num
+marital-status
+occupation
+relationship
+race
+sex
+capital-gain
+capital-loss
+hours-per-week
+native-country
+salary greater than 50k

@@ -1,0 +1,17 @@
+index
+dteday
+season
+yr
+mnth
+hr
+holiday
+weekday
+workingday
+weathersit
+temp
+atemp
+hum
+windspeed
+casual
+registered
+cnt

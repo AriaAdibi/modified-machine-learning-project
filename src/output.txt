@@ -1,0 +1,127 @@
+# -*- coding: utf-8 -*-
+
+best parameters: {'n_neighbors': 5}
+42.3% accuracy on validation sets (average) 
+
+best parameters: {'C': 4.232824558620119, 'gamma': 0.03047393617736388}
+45.1% accuracy on validation sets (average) 
+
+best parameters: {'learning_rate': 0.23358825194833555, 'max_depth': 3}
+47.5% accuracy on validation sets (average) 
+
+best parameters: {'n_neighbors': 11}
+94.1% accuracy on validation sets (average) 
+
+best parameters: {'C': 4.27708304996207, 'gamma': 0.024365700014641993}
+97.0% accuracy on validation sets (average) 
+
+best parameters: {'learning_rate': 0.2753794429736142, 'max_depth': 2}
+94.9% accuracy on validation sets (average) 
+
+knn on default_credit score: 0.7905
+Accuracy: 0.790 
+
+F1_score: 0.415 
+
+Classification report
+             precision    recall  f1-score   support
+
+          0       0.83      0.92      0.87      4673
+          1       0.54      0.34      0.42      1327
+
+avg / total       0.77      0.79      0.77      6000
+ 
+
+Confusion matrix
+[[4297  376]
+ [ 881  446]] 
+
+svm on default_credit score: 0.821
+Accuracy: 0.821 
+
+F1_score: 0.452 
+
+Classification report
+             precision    recall  f1-score   support
+
+          0       0.84      0.96      0.89      4673
+          1       0.70      0.33      0.45      1327
+
+avg / total       0.81      0.82      0.80      6000
+ 
+
+Confusion matrix
+[[4483  190]
+ [ 884  443]] 
+
+gboostc on default_credit score: 0.8205
+Accuracy: 0.821 
+
+F1_score: 0.475 
+
+Classification report
+             precision    recall  f1-score   support
+
+          0       0.84      0.95      0.89      4673
+          1       0.67      0.37      0.48      1327
+
+avg / total       0.80      0.82      0.80      6000
+ 
+
+Confusion matrix
+[[4435  238]
+ [ 839  488]] 
+
+knn on breast_cancer score: 0.9473684210526315
+Accuracy: 0.947 
+
+F1_score: 0.930 
+
+Classification report
+             precision    recall  f1-score   support
+
+          0       0.97      0.94      0.96        72
+          1       0.91      0.95      0.93        42
+
+avg / total       0.95      0.95      0.95       114
+ 
+
+Confusion matrix
+[[68  4]
+ [ 2 40]] 
+
+svm on breast_cancer score: 0.9473684210526315
+Accuracy: 0.947 
+
+F1_score: 0.929 
+
+Classification report
+             precision    recall  f1-score   support
+
+          0       0.96      0.96      0.96        72
+          1       0.93      0.93      0.93        42
+
+avg / total       0.95      0.95      0.95       114
+ 
+
+Confusion matrix
+[[69  3]
+ [ 3 39]] 
+
+gboostc on breast_cancer score: 0.956140350877193
+Accuracy: 0.956 
+
+F1_score: 0.943 
+
+Classification report
+             precision    recall  f1-score   support
+
+          0       0.99      0.94      0.96        72
+          1       0.91      0.98      0.94        42
+
+avg / total       0.96      0.96      0.96       114
+ 
+
+Confusion matrix
+[[68  4]
+ [ 1 41]] 

@@ -1,0 +1,18 @@
+MWG
+NWG
+KWG
+MDIMC
+NDIMC
+MDIMA
+NDIMB
+KWI
+VWM
+VWN
+STRM
+STRN
+SA
+SB
+Run1 (ms)
+Run2 (ms)
+Run3 (ms)
+Run4 (ms)

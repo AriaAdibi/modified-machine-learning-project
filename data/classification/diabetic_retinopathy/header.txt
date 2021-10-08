@@ -1,0 +1,20 @@
+quality_assessment
+pre-screening result
+MA detection 1
+MA detection 2
+MA detection 3
+MA detection 4
+MA detection 5
+MA detection 6
+detection exudates 1
+detection exudates 2
+detection exudates 3
+detection exudates 4
+detection exudates 5
+detection exudates 6
+detection exudates 7
+detection exudates 8
+euclid dist macula to optic disc
+optic disc diam
+AM/FM classification
+signs of DR

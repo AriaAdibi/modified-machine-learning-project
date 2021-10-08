@@ -1,0 +1,29 @@
+https://www.kaggle.com/c/MerckActivity/discussion
+
+Data Description
+
+The Training and Test Sets each consist of 15 biological activity data sets in comma separated value (CSV) format. Each row of data corresponds to a chemical structure represented by molecular descriptors.
+
+Training and Test Files
+
+The training files are of the form
+
+    Column 1: Molecule ID
+    Column 2: Activity. Note that these are raw activity values and different data sets can have activity measured in different units.
+    Column 3-end: Molecular descriptors/features 
+
+The test files are in the same format with Column 2 removed.
+
+Molecule IDs and descriptor names are global to all data sets. Thus some molecules will appear in multiple data sets, as will some descriptors.
+
+The challenge is to predict the activity value for each molecule/data set combination in the test set. To keep predictions for molecules unique to each data set, a data set identifier has been prepended to each molecule ID (e.g., "ACT1_" or "ACT8_").
+
+Data Set Creation
+
+For each activity, the training/test set split is done by dates of testing.  That is, the training set consists of compounds assayed by a certain date, and the test set consists of compounds tested after that date. Therefore it is expected that the distribution of descriptors will not necessarily be the same between the training and test sets.
+We find "time-split" validation is a much more realistic simulation of true prospective prediction in terms of R2. We find construction of test sets by random sampling gives R2's that are much too optimistic. That is what makes these data sets more of a challenge.
+Please see the schematic describing this process.
+
+Additional Files
+
+Also provided is starter code in R for reading the data sets and producing the naive random forest benchmark, and R code for calculating the R-squared metric. The benchmark result is provided as an example submission file.

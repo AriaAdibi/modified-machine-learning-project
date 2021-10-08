@@ -1,0 +1,2 @@
+python packages:
+numpy, pandas, xlrd, sklearn, matplotlib, arff2pandas
