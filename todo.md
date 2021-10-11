@@ -8,3 +8,6 @@
 * imputation
 * final models folder
 * scorer for german statlog dataset
+
+------
+- Cleanup and complete.
