@@ -1,3 +1,5 @@
+# Machine Learning Project
+
 Group project by *Anne-Laure Ehresmann*, *Aria Adibi*, *Javier Fernández-Rial Portela*
 
 ## DATA
